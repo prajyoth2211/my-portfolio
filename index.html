@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prajyoth Thungathurthi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Prajyoth Thungathurthi</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <!-- <li><a href="#contact">Contact</a></li> -->
+                    <li><a href="resume/Prajyoth_Thungathurthi.pdf" download="Prajyoth_Resume">Resume</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>I have 6.5 years of Experience in developing User Interface (UI) applications and professional web & mobile
+                    applications using JavaScript, Typescript, Polymer (All Versions), Angular Js, Angular (All Versions), JSP, XUL,
+                    HTML5 /DHTML, DOM, XHTML, React.JS, Node.JS, JQuery, CSS3, and Ajax. Also, Skilled in Graphical User
+                    Interface designing (GUI), Web application development, Human-Computer Interaction factors, usability, flash
+                    presentations, flash mock-ups, creating -illustrations, content navigation, formatting web pages, web
+                    typography and implementing CSS.</p>
+            </div>
+        </section>
+
+        <section id="projects" class="section bg-light">
+            <div class="container">
+                <h2>Professional Experience</h2>
+                <div class="project-list">
+                    <!-- Projects will be dynamically added here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="contact" class="section">
+            <div class="container">
+                <h2>Contact</h2>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea id="message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section> -->
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>Connect with me:</p>
+            <ul class="social-links">
+                <li>
+                    <a href="https://www.linkedin.com/in/prajyoth-t/" target="_blank" rel="noopener noreferrer" style="color: blueviolet;">
+                        LinkedIn
+                    </a>
+                </li>
+                <li>
+                    <p>Portfolio:</p>
+                </li>
+                <li>
+                    <a href="https://github.com/prajyoth2211" target="_blank" rel="noopener noreferrer" style="color: blueviolet;">
+                        GitHub
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    
+    
+
+    <!-- Dialog for Project Details -->
+    <dialog id="project-dialog">
+        <div class="dialog-content">
+            <button id="close-dialog" class="btn">Close</button>
+            <h3 id="dialog-title"></h3>
+            <p id="dialog-duration"></p>
+            <p id="dialog-description"></p>
+        </div>
+    </dialog>
+
+    <script src="script.js"></script>
+</body>
+</html>
